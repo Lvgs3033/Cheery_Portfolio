@@ -71,46 +71,116 @@ const allProjects = [
     category: "Web Development",
   },
   {
-    title: "Weather App",
-    description: "Real-time weather application with location-based forecasts and alerts.",
-    image: "/placeholder.svg?height=300&width=400",
-    link: "#",
-    category: "Mobile App",
-  },
-  {
-    title: "E-commerce Platform",
-    description: "Full-stack e-commerce solution with payment integration and admin panel.",
-    image: "/placeholder.svg?height=300&width=400",
-    link: "#",
-    category: "Full Stack",
-  },
-  {
-    title: "AI Chatbot",
-    description: "Intelligent chatbot using natural language processing for customer support.",
-    image: "/placeholder.svg?height=300&width=400",
-    link: "#",
+    title: "VirtualMouse",
+    description: "Virtual mouse application for controlling devices remotely using mobile phones.",
+    image: "/portfolio-1.jpg?height=300&width=400",
+    link: "https://github.com/dhvani1215/VirtualMouse",
     category: "AI/ML",
   },
   {
-    title: "Data Visualization Dashboard",
-    description: "Interactive dashboard for data analysis with charts and real-time updates.",
-    image: "/placeholder.svg?height=300&width=400",
-    link: "#",
-    category: "Data Science",
+    title: "Jarvise-ai",
+    description: "AI-powered personal assistant for task automation and productivity enhancement.",
+    image: "/portfolio-3.jpg?height=300&width=400",
+    link: "https://github.com/Lvgs3033/python_project",
+    category: "AI/ML",
   },
   {
-    title: "Social Media App",
-    description: "Social networking platform with real-time messaging and content sharing.",
-    image: "/placeholder.svg?height=300&width=400",
-    link: "#",
-    category: "Full Stack",
+    title: "Speech conversion",
+    description: "Speech-to-text and text-to-speech application for accessibility and convenience.",
+    image: "/portfolio-4.jpg?height=300&width=400",
+    link: "https://github.com/Lvgs3033/python_project",
+    category: "AI/ML",
   },
   {
-    title: "Cryptocurrency Tracker",
-    description: "Real-time cryptocurrency price tracker with portfolio management features.",
-    image: "/placeholder.svg?height=300&width=400",
-    link: "#",
-    category: "Web Development",
+    title: "Iris-flower",
+    description: "Iris flower classification project using machine learning.",
+    image: "img/portfolio-2.jpg",
+    link: "https://github.com/Lvgs3033/python_project",
+    category: "AI/ML"
+  },
+  {
+    title: "Chatboat",
+    description: "A basic chatbot project implemented using Python.",
+    image: "img/portfolio-3.jpg",
+    link: "https://github.com/Lvgs3033/python_project",
+    category: "AI/ML"
+  },
+  {
+    title: "House-price-predictor",
+    description: "Predicts house prices using regression techniques.",
+    image: "img/portfolio-4.jpg",
+    link: "https://github.com/dhvani1215/House-price-predictor",
+    category: "AI/ML"
+  },
+  {
+    title: "Student Management",
+    description: "A system to manage student records and information.",
+    image: "img/portfolio-5.jpg",
+    link: "https://github.com/Lvgs3033/python_project",
+    category: "Web App"
+  },
+  {
+    title: "Library",
+    description: "Library management system to handle book records and users.",
+    image: "img/portfolio-6.jpg",
+    link: "https://github.com/dhvani1215/library",
+    category: "Web App"
+  },
+  {
+    title: "Twitter",
+    description: "Twitter sentiment analysis with real-time visualization.",
+    image: "img/twitter.png",
+    link: "https://v0-twitter-sentiment-analysis-six.vercel.app/",
+    category: "AI/ML"
+  },
+  {
+  title: "Leetcode Rank",
+  description: "Personal Leetcode profile showcasing competitive programming progress and rankings.",
+  image: "img/portfolio-1.jpg",
+  link: "https://leetcode.com/u/Lvgs3033/",
+  category: "Competitive Programming"
+  },
+   {
+    title: "Tic-tac-toe",
+    description: "Interactive browser-based Tic-tac-toe game built with HTML, CSS, and JavaScript.",
+    image: "img/g.png",
+    link: "https://game-website-mocha.vercel.app/",
+    category: "Web Game"
+  },
+  {
+    title: "Tic-tac-toe",
+    description: "A fun and responsive Tic-tac-toe game playable on modern browsers.",
+    image: "img/t1.png",
+    link: "https://stunning-kleicha-49c0e8.netlify.app/",
+    category: "Web Game"
+  },
+  {
+    title: "whacamacole_game",
+    description: "Whac-A-Mole style mini-game using DOM manipulation and event handling.",
+    image: "img/portfolio-2.jpg",
+    link: "https://github.com/dhvani1215/whacamacole_game",
+    category: "Web Game"
+  },
+  {
+    title: "Aditi",
+    description: "A beautiful portfolio webpage with interactive UI built for branding.",
+    image: "img/Aditi.png",
+    link: "https://lvgs3033.github.io/Bestysis/",
+    category: "Web App"
+  },
+  {
+    title: "Jokes",
+    description: "A random joke generator that fetches jokes from an external API.",
+    image: "img/joke.png",
+    link: "https://lvgs3033.github.io/Joke-generator/",
+    category: "Web App"
+  },
+  {
+    title: "Love Calculator",
+    description: "Fun love compatibility calculator based on names, just for entertainment!",
+    image: "img/lc.png",
+    link: "https://lvgs3033.github.io/Love-Calulator/",
+    category: "Web App"
   },
 ]
 
