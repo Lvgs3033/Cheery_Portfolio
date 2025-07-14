@@ -27,7 +27,7 @@ export default function ThemeSwitcher() {
   return (
     <button
       aria-label="Toggle Theme"
-      className="fixed top-4 right-4 z-50 w-12 h-12 rounded-full bg-pink-600 text-white flex items-center justify-center shadow-lg hover:scale-110 transition-all"
+      className="fixed top-24 right-4 z-50 w-12 h-12 rounded-full bg-pink-600 text-white flex items-center justify-center shadow-lg hover:scale-110 transition-all"
       onClick={() => setIsDark((prev) => !prev)}
     >
       {isDark ? <Sun size={22} /> : <Moon size={22} />}
