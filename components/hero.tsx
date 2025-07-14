@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react"
 import { Github, Linkedin, Instagram, Facebook, Download, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link" // Import Link for internal navigation
 
 export default function Hero() {
   const typingRef = useRef<HTMLSpanElement>(null)
@@ -73,16 +74,28 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <Button className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
+            <Button
+              asChild
+              className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg"
+            >
+              <a href="/Resume.pdf" download="Dhvani_Kakadiya_Resume.pdf">
+                {" "}
+                {/* Updated for download */}
+                <Download className="mr-2 h-4 w-4" />
+                Download CV
+              </a>
             </Button>
             <Button
+              asChild // Use asChild to pass props to the Link component
               variant="outline"
               className="border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 bg-transparent"
             >
-              <MessageCircle className="mr-2 h-4 w-4" />
-              Hire Me!
+              <Link href="/#contact" scroll={true}>
+                {" "}
+                {/* Updated to navigate to contact section */}
+                <MessageCircle className="mr-2 h-4 w-4" />
+                Hire Me!
+              </Link>
             </Button>
           </div>
 
