@@ -129,7 +129,7 @@ const allProjects = [
   {
     title: "Twitter",
     description: "Twitter sentiment analysis with real-time visualization.",
-    image: "img/twitter.png",
+    image: "/twitter.png",
     link: "https://v0-twitter-sentiment-analysis-six.vercel.app/",
     category: "AI/ML"
   },
@@ -141,8 +141,8 @@ const allProjects = [
   category: "Competitive Programming"
   },
    {
-    title: "Tic-tac-toe",
-    description: "Interactive browser-based Tic-tac-toe game built with HTML, CSS, and JavaScript.",
+    title: "Memory map",
+    description: "Interactive memory map application for visualizing and managing personal memories.",
     image: "/g.png",
     link: "https://game-website-mocha.vercel.app/",
     category: "Web Game"

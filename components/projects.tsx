@@ -138,10 +138,10 @@ const allProjects = [
   link: "https://leetcode.com/u/Lvgs3033/",
   category: "Competitive Programming"
   },
-   {
-    title: "Tic-tac-toe",
-    description: "Interactive browser-based Tic-tac-toe game built with HTML, CSS, and JavaScript.",
-    image: "img/g.png",
+  {
+    title: "Memory map",
+    description: "Interactive memory map application for visualizing and managing personal memories.",
+    image: "/g.png",
     link: "https://game-website-mocha.vercel.app/",
     category: "Web Game"
   },
