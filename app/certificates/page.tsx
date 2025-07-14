@@ -7,7 +7,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 
 const allCertificates = [
-  {
+ {
     title: "Google Cloud Skillboost",
     issuer: "Google Cloud",
     description: "Completed various cloud computing and data analytics courses with hands-on labs.",
@@ -25,7 +25,7 @@ const allCertificates = [
   },
   {
     title: "Generative AI",
-    issuer: "Industry Expert",
+    issuer: "Google Cloud",
     description: "Advanced course on generative artificial intelligence and machine learning models.",
     image: "/c3.png?height=200&width=300",
     link: "https://drive.google.com/file/d/1o3RziidgL59MHmsBmaUKxu5KtRYrwy1Z/view?usp=drive_link",
@@ -33,7 +33,7 @@ const allCertificates = [
   },
   {
     title: "Web Development",
-    issuer: "Tech Institute",
+    issuer: "Google Developer group",
     description: "Full-stack web development certification covering modern frameworks and technologies.",
     image: "/c4.png?height=200&width=300",
     link: "https://drive.google.com/file/d/1RAgg3PX3Euo7lNQsBrQMeQzwxW0YHn05/view?usp=drive_link",
@@ -41,7 +41,7 @@ const allCertificates = [
   },
   {
     title: "Blockchain Technology",
-    issuer: "Blockchain Academy",
+    issuer: "Cyfrin updraft",
     description: "Comprehensive understanding of blockchain technology and cryptocurrency systems.",
     image: "/c5.png?height=200&width=300",
     link: "https://drive.google.com/file/d/1oEXRvUVgTfiPazR5U-sRBTFGL0B6U-cp/view?usp=drive_link",
@@ -49,7 +49,7 @@ const allCertificates = [
   },
   {
     title: "Natural Language Processing",
-    issuer: "AI Institute",
+    issuer: "Microsoft",
     description: "Advanced NLP techniques and applications in modern AI systems.",
     image: "/c6.png?height=200&width=300",
     link: "https://drive.google.com/file/d/1N-QNCk54lM3luzfcEOgcPL76VVKB8Kvk/view?usp=drive_link",
@@ -57,7 +57,7 @@ const allCertificates = [
   },
   {
     title: "Ruby",
-    issuer: "Codecademy",
+    issuer: "Infosys",
     description: "Advanced NLP techniques and applications in modern AI systems.",
     image: "/c7.png?height=200&width=300",
     link: "https://drive.google.com/file/d/1SdDnU21QBl7GEGmhfvD1AngDJfgcNXQI/view?usp=drive_link",
@@ -65,15 +65,15 @@ const allCertificates = [
   },
   {
     title: "Cybersecurity",
-    issuer: "Security Experts",
-    description: "Advanced NLP techniques and applications in modern AI systems.",
+    issuer: "JP Morgan",
+    description: "All cybersecurity tools and techniques to protect against cyber threats.",
     image: "/c8.png?height=200&width=300",
     link: "https://drive.google.com/file/d/1f0yjsVs-ZBu6tXoUpS2J1zl1cYCTN5Hc/view?usp=drive_link",
     color: "from-green-500 to-teal-500",
   },
   {
     title: "Web development workshop",
-    issuer: "Dev Community",
+    issuer: "Micorsoft",
     description: "Advanced NLP techniques and applications in modern AI systems.",
     image: "/c9.png?height=200&width=300",
     link: "https://drive.google.com/file/d/1REH_mtCRcmupwynTthYMuHpQztr1E-X5/view?usp=drive_link",
