@@ -23,7 +23,7 @@ export default function About() {
     {
       period: "2021-2024",
       title: "Bachelor in Computer Science",
-      institution: "C.K.Pithawala College, Surat",
+      institution: "Gujarat Technological University, Surat",
       description:
         "Currently pursuing graduation in Computer Science with focus on programming, data structures, and software development.",
     },
