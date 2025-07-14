@@ -1,0 +1,165 @@
+"use client"
+
+import { Calendar, User, ArrowRight, ArrowLeft } from "lucide-react" // Added ArrowLeft
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import Header from "@/components/header"
+import Footer from "@/components/footer"
+
+const allBlogPosts = [
+  {
+    title: "Learn JavaScript - in fun way!",
+    excerpt:
+      "JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.",
+    author: "Dhvani Kakadiya",
+    date: "2024-01-15",
+    readTime: "5 min read",
+    category: "JavaScript",
+    link: "https://github.com/Lvgs3033/Material",
+  },
+  {
+    title: "Java - in fun way!",
+    excerpt:
+      "Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language.",
+    author: "Dhvani Kakadiya",
+    date: "2024-01-10",
+    readTime: "7 min read",
+    category: "Java",
+    link: "https://github.com/Lvgs3033/Material",
+  },
+  {
+    title: "DSA - in fun way!",
+    excerpt:
+      "Data Structures and Algorithms (DSA) is a fundamental part of Computer Science that teaches you how to think and solve complex problems systematically.",
+    author: "Dhvani Kakadiya",
+    date: "2024-01-05",
+    readTime: "10 min read",
+    category: "DSA",
+    link: "https://github.com/Lvgs3033/Material",
+  },
+  {
+    title: "Android Development - in fun way!",
+    excerpt:
+      "Android is a software package and linux based operating system for mobile devices such as tablet computers and smartphones.",
+    author: "Dhvani Kakadiya",
+    date: "2024-01-01",
+    readTime: "8 min read",
+    category: "Android",
+    link: "https://github.com/Lvgs3033/Material",
+  },
+  {
+    title: "Python for Data Science",
+    excerpt: "An introduction to using Python for data analysis, manipulation, and visualization.",
+    author: "Dhvani Kakadiya",
+    date: "2024-02-01",
+    readTime: "6 min read",
+    category: "Python",
+    link: "https://github.com/Lvgs3033/Material",
+  },
+  {
+    title: "Understanding Machine Learning",
+    excerpt: "A beginner-friendly guide to the core concepts of machine learning and its applications.",
+    author: "Dhvani Kakadiya",
+    date: "2024-02-10",
+    readTime: "12 min read",
+    category: "AI/ML",
+    link: "https://github.com/Lvgs3033/Material",
+  },
+  {
+    title: "Building RESTful APIs with Node.js",
+    excerpt: "Learn how to create robust and scalable RESTful APIs using Node.js and Express.",
+    author: "Dhvani Kakadiya",
+    date: "2024-02-20",
+    readTime: "9 min read",
+    category: "Web Development",
+    link: "https://github.com/Lvgs3033/Material",
+  },
+  {
+    title: "Introduction to Cloud Computing",
+    excerpt: "Explore the fundamentals of cloud computing and popular cloud service providers.",
+    author: "Dhvani Kakadiya",
+    date: "2024-03-01",
+    readTime: "7 min read",
+    category: "Cloud",
+    link: "https://github.com/Lvgs3033/Material",
+  },
+]
+
+export default function BlogPage() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-pink-50 to-rose-100 dark:from-pink-900 dark:to-rose-900 transition-all duration-500">
+      <Header />
+      <main className="pt-20 px-6">
+        <section id="all-blogs" className="py-20">
+          <div className="container mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">
+                All <span className="text-pink-600 dark:text-pink-400">Blog Posts</span>
+              </h2>
+              <div className="w-20 h-1 bg-pink-600 mx-auto mb-8"></div>
+              <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+                Dive deeper into my thoughts and insights on programming, technology, and software development.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {allBlogPosts.map((post, index) => (
+                <article
+                  key={post.title}
+                  className="group bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 animate-fade-in-up"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  <div className="p-6">
+                    <div className="flex items-center justify-between mb-4">
+                      <span className="text-xs font-semibold text-pink-600 dark:text-pink-400 bg-pink-100 dark:bg-pink-900/30 px-3 py-1 rounded-full">
+                        {post.category}
+                      </span>
+                      <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm">
+                        <Calendar size={14} className="mr-1" />
+                        {new Date(post.date).toLocaleDateString()}
+                      </div>
+                    </div>
+
+                    <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-3 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors">
+                      {post.title}
+                    </h3>
+
+                    <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">{post.excerpt}</p>
+
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                        <User size={14} className="mr-1" />
+                        <span className="mr-4">{post.author}</span>
+                        <span>{post.readTime}</span>
+                      </div>
+
+                      <Button
+                        asChild
+                        variant="ghost"
+                        className="text-pink-600 hover:text-pink-700 hover:bg-pink-50 dark:hover:bg-pink-900/30 p-2"
+                      >
+                        <a href={post.link} target="_blank" rel="noopener noreferrer">
+                          <ArrowRight size={16} />
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+
+            <div className="text-center mt-12">
+              <Link href="/" passHref scroll={true}>
+                <Button className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105">
+                  <ArrowLeft className="mr-2 h-4 w-4" /> {/* Added ArrowLeft icon */}
+                  Back to Home
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </div>
+  )
+}
