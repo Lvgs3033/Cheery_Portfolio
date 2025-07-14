@@ -1,8 +1,10 @@
 "use client"
 
-import { ExternalLink } from "lucide-react"
+import { ExternalLink, ArrowLeft } from "lucide-react" // Added ArrowLeft
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import Header from "@/components/header"
+import Footer from "@/components/footer"
 
 const allProjects = [
   {
@@ -112,65 +114,73 @@ const allProjects = [
   },
 ]
 
-export default function Projects() {
-  const displayedProjects = allProjects.slice(0, 6) // Show only the first 6 projects
-
+export default function ProjectsPage() {
   return (
-    <section id="projects" className="py-20 px-6">
-      <div className="container mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">
-            My <span className="text-pink-600 dark:text-pink-400">Projects</span>
-          </h2>
-          <div className="w-20 h-1 bg-pink-600 mx-auto mb-8"></div>
-          <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            A showcase of my diverse projects, demonstrating my skills in web development, mobile apps, and more.
-          </p>
-        </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {displayedProjects.map((project, index) => (
-            <div
-              key={project.title}
-              className="group bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 animate-fade-in-up"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
-              <div className="relative overflow-hidden">
-                <img
-                  src={project.image || "/placeholder.svg"}
-                  alt={project.title}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-pink-600/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <Button asChild className="bg-white text-pink-600 hover:bg-gray-100 rounded-full">
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      View Project
-                    </a>
-                  </Button>
-                </div>
-              </div>
-              <div className="p-6">
-                <div className="mb-2">
-                  <span className="text-xs font-semibold text-pink-600 dark:text-pink-400 bg-pink-100 dark:bg-pink-900/30 px-2 py-1 rounded-full">
-                    {project.category}
-                  </span>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors">
-                  {project.title}
-                </h3>
-                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">{project.description}</p>
-              </div>
+    <div className="min-h-screen bg-gradient-to-br from-pink-50 to-rose-100 dark:from-pink-900 dark:to-rose-900 transition-all duration-500">
+      <Header />
+      <main className="pt-20 px-6">
+        <section id="all-projects" className="py-20">
+          <div className="container mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">
+                All <span className="text-pink-600 dark:text-pink-400">Projects</span>
+              </h2>
+              <div className="w-20 h-1 bg-pink-600 mx-auto mb-8"></div>
+              <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+                Explore my complete collection of projects, showcasing diverse skills in web development, data science,
+                AI/ML, and software engineering.
+              </p>
             </div>
-          ))}
-        </div>
-        <div className="text-center mt-12">
-          <Link href="/projects" passHref scroll={true}>
-            <Button className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105">
-              View All Projects
-            </Button>
-          </Link>
-        </div>
-      </div>
-    </section>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {allProjects.map((project, index) => (
+                <div
+                  key={project.title}
+                  className="group bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 animate-fade-in-up"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  <div className="relative overflow-hidden">
+                    <img
+                      src={project.image || "/placeholder.svg"}
+                      alt={project.title}
+                      className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-pink-600/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <Button asChild className="bg-white text-pink-600 hover:bg-gray-100 rounded-full">
+                        <a href={project.link} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="mr-2 h-4 w-4" />
+                          View Project
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                  <div className="p-6">
+                    <div className="mb-2">
+                      <span className="text-xs font-semibold text-pink-600 dark:text-pink-400 bg-pink-100 dark:bg-pink-900/30 px-2 py-1 rounded-full">
+                        {project.category}
+                      </span>
+                    </div>
+                    <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors">
+                      {project.title}
+                    </h3>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">{project.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="text-center mt-12">
+              <Link href="/" passHref scroll={true}>
+                <Button className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105">
+                  <ArrowLeft className="mr-2 h-4 w-4" /> {/* Added ArrowLeft icon */}
+                  Back to Home
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </div>
   )
 }

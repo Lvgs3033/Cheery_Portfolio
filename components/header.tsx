@@ -3,89 +3,79 @@
 import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
 import Link from "next/link"
+import { usePathname } from "next/navigation" // [^1]
+import { Button } from "@/components/ui/button"
+import ThemeSwitcher from "./theme-switcher"
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isScrolled, setIsScrolled] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
+  const pathname = usePathname() // [^1]
 
+  const toggleMenu = () => {
+    setIsOpen(!isOpen)
+  }
+
+  // Close menu when navigating
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50)
-    }
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    setIsOpen(false)
+  }, [pathname])
 
-  const navItems = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    { href: "/skills", label: "Skills" },
-    { href: "/projects", label: "Projects" },
-    { href: "/certificates", label: "Certificates" },
-    { href: "/blog", label: "Blog" },
-    { href: "/contact", label: "Contact" },
+  const navLinks = [
+    { name: "About", href: "/#about" },
+    { name: "Skills", href: "/#skills" },
+    { name: "Projects", href: "/projects" }, // Link to dedicated projects page
+    { name: "Certificates", href: "/certificates" }, // Link to dedicated certificates page
+    { name: "Blog", href: "/blog" }, // Link to dedicated blog page
+    { name: "Contact", href: "/#contact" },
   ]
 
   return (
-    <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-pink-100/90 dark:bg-pink-900/90 backdrop-blur-md shadow-lg"
-          : "bg-transparent"
-      }`}
-    >
-      <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="logo">
-          <Link
-            href="/"
-            className="text-2xl font-bold text-pink-600 dark:text-pink-300 hover:text-pink-700 dark:hover:text-pink-200 transition-colors"
-          >
-            <span className="text-4xl font-script">D</span>hvani.
-          </Link>
-        </div>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm transition-all duration-300">
+      <div className="container mx-auto flex items-center justify-between h-16 px-6">
+        <Link href="/" className="text-2xl font-bold text-pink-600 dark:text-pink-400" scroll={true}>
+          Dhvani.
+        </Link>
 
-        {/* Desktop nav */}
-        <nav className="hidden md:flex space-x-8">
-          {navItems.map((item, index) => (
+        <nav className="hidden md:flex items-center space-x-6">
+          {navLinks.map((link) => (
             <Link
-              key={item.href}
-              href={item.href}
-              className="text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300 transition-all duration-300 hover:scale-105 font-medium"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              key={link.name}
+              href={link.href}
+              className="text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-400 transition-colors font-medium"
+              scroll={true} // Ensure scrolling to top for new pages, or to section for anchors
             >
-              {item.label}
+              {link.name}
             </Link>
           ))}
+          <ThemeSwitcher />
         </nav>
 
-        {/* Menu button for mobile */}
-        <button
-          className="md:hidden text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300 transition-colors"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        <div className="md:hidden flex items-center space-x-2">
+          <ThemeSwitcher />
+          <Button variant="ghost" size="icon" onClick={toggleMenu} aria-label="Toggle menu">
+            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </Button>
+        </div>
+      </div>
 
-        {/* Mobile nav */}
-        <div
-          className={`absolute top-full left-0 w-full bg-pink-100/95 dark:bg-pink-900/95 backdrop-blur-md md:hidden transition-all duration-300 ${
-            isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
-          }`}
-        >
-          <nav className="flex flex-col space-y-4 p-6">
-            {navItems.map((item) => (
+      {/* Mobile menu */}
+      {isOpen && (
+        <div className="md:hidden bg-white dark:bg-gray-900 py-4 shadow-lg">
+          <nav className="flex flex-col items-center space-y-4">
+            {navLinks.map((link) => (
               <Link
-                key={item.href}
-                href={item.href}
-                className="text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300 transition-colors font-medium"
-                onClick={() => setIsMenuOpen(false)}
+                key={link.name}
+                href={link.href}
+                className="text-gray-700 dark:text-gray-200 hover:text-pink-600 dark:hover:text-pink-400 transition-colors font-medium text-lg"
+                onClick={() => setIsOpen(false)} // Close menu on click
+                scroll={true} // Ensure scrolling to top for new pages, or to section for anchors
               >
-                {item.label}
+                {link.name}
               </Link>
             ))}
           </nav>
         </div>
-      </div>
+      )}
     </header>
   )
 }
