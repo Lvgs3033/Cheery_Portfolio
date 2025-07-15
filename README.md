@@ -46,7 +46,7 @@ A beautiful, modern portfolio website built with Next.js featuring a stunning ch
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/Lvgs3033/cherry-portfolio.git
+   git clone https://github.com/Lvgs3033/Cheery_Portfolio
    cd cherry-portfolio
    \`\`\`
 
