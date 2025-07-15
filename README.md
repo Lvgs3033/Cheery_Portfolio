@@ -1,6 +1,6 @@
 # 🌸 Cherry Blossom Portfolio - Dhvani Kakadiya
 
-A beautiful, modern portfolio website built with Next.js featuring a stunning cherry blossom theme, smooth animations, and interactive elements.
+A beautiful, modern portfolio website built with Typescript featuring a stunning cherry blossom theme, smooth animations, and interactive elements.
 
 ![Portfolio Preview](https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&h=400&fit=crop)
 
