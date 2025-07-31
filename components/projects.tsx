@@ -71,7 +71,7 @@ const allProjects = [
   {
   title: "LoreLoom",
   description: "An interactive storytelling platform where users can craft, explore, and share immersive tales and digital lore.",
-  image: "/L.jpg",
+  image: "/L.png?height=300&width=400",
   link: "https://lore-loom-tqxp.vercel.app/",
   category: "Web Development",
 },
