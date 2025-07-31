@@ -63,6 +63,3 @@ A beautiful, modern portfolio website built with Typescript featuring a stunning
    # or
    yarn dev
    \`\`\`
-
-4. **Open your browser**
-   Navigate to https://cheery-portfolio-ibqa.vercel.app/.
