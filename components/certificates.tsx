@@ -13,13 +13,22 @@ const allCertificates = [
     link: "https://www.cloudskillsboost.google/public_profiles/2a953300-883e-4739-82d6-ed61cb7493d1",
     color: "from-blue-500 to-green-500",
   },
+  
   {
-    title: "Data Science & Analytics",
-    issuer: "HP",
-    description: "Comprehensive program covering data analysis, machine learning, and statistical methods.",
-    image: "/c2.png?height=200&width=300",
-    link: "https://drive.google.com/file/d/1hRB27j6P7jfzQF_RJbky091rFOjLmoSE/view?usp=drive_link",
-    color: "from-purple-500 to-pink-500",
+    title: "Web Development",
+    issuer: "Google Developer group",
+    description: "Full-stack web development certification covering modern frameworks and technologies.",
+    image: "/c4.png?height=200&width=300",
+    link: "https://drive.google.com/file/d/1RAgg3PX3Euo7lNQsBrQMeQzwxW0YHn05/view?usp=drive_link",
+    color: "from-cyan-500 to-blue-500",
+  },
+   {
+    title: "Web development workshop",
+    issuer: "Micorsoft",
+    description: "Advanced NLP techniques and applications in modern AI systems.",
+    image: "/c9.png?height=200&width=300",
+    link: "https://drive.google.com/file/d/1REH_mtCRcmupwynTthYMuHpQztr1E-X5/view?usp=drive_link",
+    color: "from-green-500 to-teal-500",
   },
   {
     title: "Generative AI",
@@ -30,12 +39,20 @@ const allCertificates = [
     color: "from-orange-500 to-red-500",
   },
   {
-    title: "Web Development",
-    issuer: "Google Developer group",
-    description: "Full-stack web development certification covering modern frameworks and technologies.",
-    image: "/c4.png?height=200&width=300",
-    link: "https://drive.google.com/file/d/1RAgg3PX3Euo7lNQsBrQMeQzwxW0YHn05/view?usp=drive_link",
-    color: "from-cyan-500 to-blue-500",
+    title: "Natural Language Processing",
+    issuer: "Microsoft",
+    description: "Advanced NLP techniques and applications in modern AI systems.",
+    image: "/c6.png?height=200&width=300",
+    link: "https://drive.google.com/file/d/1N-QNCk54lM3luzfcEOgcPL76VVKB8Kvk/view?usp=drive_link",
+    color: "from-green-500 to-teal-500",
+  },
+  {
+    title: "Data Science & Analytics",
+    issuer: "HP",
+    description: "Comprehensive program covering data analysis, machine learning, and statistical methods.",
+    image: "/c2.png?height=200&width=300",
+    link: "https://drive.google.com/file/d/1hRB27j6P7jfzQF_RJbky091rFOjLmoSE/view?usp=drive_link",
+    color: "from-purple-500 to-pink-500",
   },
   {
     title: "Blockchain Technology",
@@ -44,14 +61,6 @@ const allCertificates = [
     image: "/c5.png?height=200&width=300",
     link: "https://drive.google.com/file/d/1oEXRvUVgTfiPazR5U-sRBTFGL0B6U-cp/view?usp=drive_link",
     color: "from-yellow-500 to-orange-500",
-  },
-  {
-    title: "Natural Language Processing",
-    issuer: "Microsoft",
-    description: "Advanced NLP techniques and applications in modern AI systems.",
-    image: "/c6.png?height=200&width=300",
-    link: "https://drive.google.com/file/d/1N-QNCk54lM3luzfcEOgcPL76VVKB8Kvk/view?usp=drive_link",
-    color: "from-green-500 to-teal-500",
   },
   {
     title: "Ruby",
@@ -69,14 +78,7 @@ const allCertificates = [
     link: "https://drive.google.com/file/d/1f0yjsVs-ZBu6tXoUpS2J1zl1cYCTN5Hc/view?usp=drive_link",
     color: "from-green-500 to-teal-500",
   },
-  {
-    title: "Web development workshop",
-    issuer: "Micorsoft",
-    description: "Advanced NLP techniques and applications in modern AI systems.",
-    image: "/c9.png?height=200&width=300",
-    link: "https://drive.google.com/file/d/1REH_mtCRcmupwynTthYMuHpQztr1E-X5/view?usp=drive_link",
-    color: "from-green-500 to-teal-500",
-  },
+ 
 ]
 
 export default function Certificates() {
