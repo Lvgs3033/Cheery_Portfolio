@@ -16,7 +16,7 @@ export default function Skills() {
     { name: "C/C++", percentage: 70, color: "bg-red-500" },
   ]
 
-  const Technologies = [
+  const professionalSkills = [
     { name: "Web Development", percentage: 90 },
     { name: "Data Science", percentage: 70 },
     { name: "DSA,oops", percentage: 80 },
