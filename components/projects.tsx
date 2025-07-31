@@ -12,13 +12,13 @@ const allProjects = [
     link: "https://code-complier-g7oq.vercel.app/",
     category: "Web Development",
   },
-  {
-    title: "Eklavy",
-    description: "Educational platform for learning and skill development with interactive features.",
-    image: "/e.png?height=300&width=400",
-    link: "https://eklavy.vercel.app/",
-    category: "Web Development",
-  },
+ {
+  title: "Resume Analyzer",
+  description: "AI-powered resume analyzer that provides real-time feedback, ATS optimization, and personalized suggestions.",
+  image: "/e.png?height=400&width=100%",
+  link: "https://aaa-rrrrr-f4rs.vercel.app/",
+  category: "Web Development",
+},
   {
     title: "Blog Website",
     description: "Modern blog platform with content management and user engagement features.",
@@ -48,12 +48,12 @@ const allProjects = [
     category: "Web Development",
   },
   {
-    title: "Resume Builder",
-    description: "Dynamic resume builder with multiple templates and PDF export functionality.",
-    image: "/r.png?height=300&width=400",
-    link: "https://spectacular-cocada-e8c313.netlify.app/",
-    category: "Web Development",
-  },
+  title: "Skill Send",
+  description: "A platform to share and discover skills, enabling users to learn, connect, and grow through community-driven content.",
+  image: "/S.png?height=400&width=100%",
+  link: "https://skillsend-4tv4.vercel.app/",
+  category: "Web Development",
+},
   {
     title: "Recipe Website",
     description: "Interactive recipe sharing platform with search and filtering capabilities.",
@@ -68,6 +68,13 @@ const allProjects = [
     link: "https://dsa-project-4smq.vercel.app/",
     category: "Web Development",
   },
+  {
+  title: "LoreLoom",
+  description: "An interactive storytelling platform where users can craft, explore, and share immersive tales and digital lore.",
+  image: "/L.jpg",
+  link: "https://lore-loom-tqxp.vercel.app/",
+  category: "Web Development",
+},
   {
     title: "VirtualMouse",
     description: "Virtual mouse application for controlling devices remotely using mobile phones.",

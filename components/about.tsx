@@ -21,9 +21,9 @@ export default function About() {
         "Completed high schooling with science stream, focusing on mathematics and physics. Successfully cleared JEE competitive exam.",
     },
     {
-      period: "2021-2024",
+      period: "2022-2026",
       title: "Bachelor in Computer Science",
-      institution: "C.K.Pithawala College, Surat",
+      institution: "Gujarat Technological University (GTU), Surat",
       description:
         "Currently pursuing graduation in Computer Science with focus on programming, data structures, and software development.",
     },
@@ -31,16 +31,15 @@ export default function About() {
 
   const experience = [
     {
-      period: "2020",
+      period: "2020-2025",
       title: "Started Programming Journey",
-      description:
-        "Began first programming project during vacations. Started with C++ and already had knowledge of C, HTML, and CSS.",
+      description:"I started my first programming language during vacations. I had started with C++. I already knew about C, HTML, and CSS at that time. I learned about web development, data science, AI/ML, and Flutter a little bit.",
     },
     {
-      period: "2024...",
-      title: "Continuous Learning",
+      period: "2025",
+      title: "Internship at Canopas",
       description:
-        "Learning advanced programming concepts including DSA, OOP, and various technologies like Java, Python, Ruby, and SQL.",
+        "I was offered an internship as a Web Developer Intern at Canopas, a tech-driven company located in Surat. The internship spanned from 2nd July to 2nd August 2025, providing me with an opportunity to gain practical experience and refine my web development skills in a professional environment. Throughout the internship, I worked on real-world projects under the guidance of industry professionals, enhancing both my technical capabilities and workplace professionalism. This hands-on experience significantly contributed to my growth as a developer and deepened my understanding of modern web technologies.",
     },
   ]
 
