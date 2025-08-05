@@ -18,7 +18,7 @@ const allBlogPosts = [
   {
     title: "Java - in fun way!",
     excerpt:
-      "Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language.",
+      "Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language for coding everything from mobile apps and enterprise software to big data applications and server-side technologies.",
     author: "Dhvani Kakadiya",
     date: "2024-01-10",
     readTime: "7 min read",
@@ -28,7 +28,7 @@ const allBlogPosts = [
   {
     title: "DSA - in fun way!",
     excerpt:
-      "Data Structures and Algorithms (DSA) is a fundamental part of Computer Science that teaches you how to think and solve complex problems systematically.",
+      "Data Structures and Algorithms (DSA) is a fundamental part of Computer Science that teaches you how to think and solve complex problems systematically. Using the right data structure and algorithm makes your program run faster, especially when working with lots of data.",
     author: "Dhvani Kakadiya",
     date: "2024-01-05",
     readTime: "10 min read",
@@ -44,44 +44,9 @@ const allBlogPosts = [
     readTime: "8 min read",
     category: "Android",
     link: "https://github.com/Lvgs3033/Material",
-  },
-  {
-    title: "Python for Data Science",
-    excerpt: "An introduction to using Python for data analysis, manipulation, and visualization.",
-    author: "Dhvani Kakadiya",
-    date: "2024-02-01",
-    readTime: "6 min read",
-    category: "Python",
-    link: "https://github.com/Lvgs3033/Material",
-  },
-  {
-    title: "Understanding Machine Learning",
-    excerpt: "A beginner-friendly guide to the core concepts of machine learning and its applications.",
-    author: "Dhvani Kakadiya",
-    date: "2024-02-10",
-    readTime: "12 min read",
-    category: "AI/ML",
-    link: "https://github.com/Lvgs3033/Material",
-  },
-  {
-    title: "Building RESTful APIs with Node.js",
-    excerpt: "Learn how to create robust and scalable RESTful APIs using Node.js and Express.",
-    author: "Dhvani Kakadiya",
-    date: "2024-02-20",
-    readTime: "9 min read",
-    category: "Web Development",
-    link: "https://github.com/Lvgs3033/Material",
-  },
-  {
-    title: "Introduction to Cloud Computing",
-    excerpt: "Explore the fundamentals of cloud computing and popular cloud service providers.",
-    author: "Dhvani Kakadiya",
-    date: "2024-03-01",
-    readTime: "7 min read",
-    category: "Cloud",
-    link: "https://github.com/Lvgs3033/Material",
-  },
+  }
 ]
+
 
 export default function Blog() {
   const displayedBlogPosts = allBlogPosts.slice(0, 6) // Show only the first 6 blog posts
