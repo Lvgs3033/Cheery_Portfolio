@@ -17,14 +17,14 @@ const allCertificates = [
   title: "Offer Letter",
   description: "Received an offer letter showcasing recognition for skills and qualifications. View details on LinkedIn.",
   image: "/II.png?height=400&width=100%",
-  link: "https://drive.google.com/file/d/1E4WHMOhkFb1qZn1is-WMk-VIwSMwlUV8/view?usp=drive_link",
+  link: "https://drive.google.com/file/d/1VBkEMP4hLFHuRPDXt84mYsWncJ_m7N8R/view?usp=drive_link",
   category: "Achievement",
 },
 {
   title: "Completion Certificate",
   description: "Certificate of completion awarded for successfully finishing the internship/training program.",
   image: "/II.png?height=400&width=100%",
-  link: "https://drive.google.com/file/d/1E0cFaZ6iOPHP85U058cXxBtpJH8uk_-O/view?usp=drive_link",
+  link: "https://drive.google.com/file/d/1EO-okxAbcD0BlaC-aBQ-ycNz8nS9onzT/view?usp=drive_link",
   category: "Certification",
 },
   {
