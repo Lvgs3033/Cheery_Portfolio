@@ -15,7 +15,7 @@ const allProjects = [
   {
   title: "Helper",
   description: "A web-based platform offering language learning tools, quizzes, and progress tracking with a modern UI.",
-  image: "/img/H.png?height=400&width=100%",
+  image: "/H.png?height=400&width=100%",
   link: "https://helper-ruddy.vercel.app/",
   category: "Web App",
 },
