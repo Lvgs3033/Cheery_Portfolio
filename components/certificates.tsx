@@ -14,6 +14,27 @@ const allCertificates = [
     color: "from-blue-500 to-green-500",
   }, 
   {
+  title: "Google Cloud SkillBoost",
+  description: "Public profile showcasing completed Google Cloud courses and hands-on labs through Cloud Skills Boost.",
+  image: "/img/c1.png?height=400&width=100%",
+  link: "https://www.cloudskillsboost.google/public_profiles/2a953300-883e-4739-82d6-ed61cb7493d1",
+  category: "Certification",
+},
+{
+  title: "Offer Letter",
+  description: "Received an offer letter showcasing recognition for skills and qualifications. View details on LinkedIn.",
+  image: "/img/II.png?height=400&width=100%",
+  link: "https://www.linkedin.com/posts/dhvani-kakadiya-2811a8252_offer-letter-activity-7346110887155367938-gpgC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5SDYEBPKTWm7PIT0sJObLfxf9SpjbLlT0",
+  category: "Achievement",
+},
+{
+  title: "Completion Certificate",
+  description: "Certificate of completion awarded for successfully finishing the internship/training program.",
+  image: "/img/II.png?height=400&width=100%",
+  link: "https://www.linkedin.com/posts/dhvani-kakadiya-2811a8252_offer-letter-activity-7346110887155367938-gpgC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5SDYEBPKTWm7PIT0sJObLfxf9SpjbLlT0",
+  category: "Certification",
+},
+  {
   title: "AI Internship",
   issuer: "Microsoft",
   description: "AI internship focused on practical applications and innovation under Microsoft's mentorship.",
