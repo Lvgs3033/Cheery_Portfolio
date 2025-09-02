@@ -20,15 +20,6 @@ Live Preview : https://cheery-portfolio-3xoa.vercel.app/
 - **Smooth Scrolling**: Seamless navigation between sections
 - **Hover Effects**: Interactive elements with scale and shadow effects
 
-### 📱 Sections
-- **Hero Section**: Introduction with typing animation and social links
-- **About**: Personal information, education, and experience timeline
-- **Skills**: Technical and professional skills with animated progress bars
-- **Projects**: Showcase of web development projects with live links
-- **Certificates**: Professional certifications and achievements
-- **Blog**: Technical articles and learning resources
-- **Contact**: Working contact form with validation and success/error states
-
 ### 🚀 Technical Features
 - **Next.js 15**: Latest React framework with App Router
 - **TypeScript**: Type-safe development
