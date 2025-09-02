@@ -4,8 +4,7 @@ A beautiful, modern portfolio website built with Typescript featuring a stunning
 
 ![Portfolio Preview](https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&h=400&fit=crop)
 
-Live Preview : https://cheery-portfolio-zo35.vercel.app/
-
+Live Preview : https://cheery-portfolio-2k4k.vercel.app/
 ## ✨ Features
 
 ### 🎨 Design & Theme
