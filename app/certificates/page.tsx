@@ -16,19 +16,27 @@ const allCertificates = [
     color: "from-blue-500 to-green-500",
   }, 
 {
-  title: "Offer Letter",
+  title: "Internship Offer Letter",
   description: "Received an offer letter showcasing recognition for skills and qualifications. View details on LinkedIn.",
   image: "img/II.png?height=400&width=100%",
   link: "https://drive.google.com/file/d/1VBkEMP4hLFHuRPDXt84mYsWncJ_m7N8R/view?usp=drive_link",
   category: "Achievement",
 },
 {
-  title: "Completion Certificate",
+  title: "Internship Completion Certificate",
   description: "Certificate of completion awarded for successfully finishing the internship/training program.",
   image: "img/II.png?height=400&width=100%",
   link: "https://drive.google.com/file/d/1EO-okxAbcD0BlaC-aBQ-ycNz8nS9onzT/view?usp=drive_link",
   category: "Certification",
+},{
+  title: "DSA BY GEEKS FOR GEEKS",
+  issuer: "GeeksforGeeks",
+  description: "Completed the Data Structures and Algorithms course offered by GeeksforGeeks.",
+  image: "/img/ge.png?height=200&width=300",
+  link: "https://drive.google.com/file/d/1a8BYt8OXA7xvdyc0tmAs6X5olv3AP2Jk/view?usp=drive_link",
+  color: "from-green-500 to-yellow-500",
 },
+
   {
   title: "AI Internship",
   issuer: "Microsoft",

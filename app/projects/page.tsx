@@ -7,6 +7,13 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 
 const allProjects = [
+ {
+  title: "Leetcode Rank",
+  description: "Personal Leetcode profile showcasing competitive programming progress and rankings.",
+  image: "/portfolio-1.jpg",
+  link: "https://leetcode.com/u/Lvgs3033/",
+  category: "Competitive Programming"
+  },
   {
     title: "Code Compiler",
     description: "Online code compiler supporting multiple programming languages with real-time execution.",
@@ -15,18 +22,40 @@ const allProjects = [
     category: "Web Development",
   },
   {
-  title: "Helper",
-  description: "A web-based platform offering language learning tools, quizzes, and progress tracking with a modern UI.",
-  image: "/H.png?height=400&width=100%",
-  link: "https://helper-ruddy.vercel.app/",
-  category: "Web App",
+  title: "Style Me",
+  description: "A fashion recommendation web app that suggests outfits and styles for users.",
+  image: "/sm.png?height=400&width=100%",
+  link: "https://style-me-6w49.vercel.app/",
+  category: "Web Development",
 },
+{
+  title: "DSAFLOW",
+  description: "An interactive web app for practicing and visualizing Data Structures and Algorithms.",
+  image: "/dsa.png?height=400&width=100%",
+  link: "https://dsaflow.vercel.app/",
+  category: "Web Development / DSA Tools",
+},
+
  {
   title: "Resume Analyzer",
   description: "AI-powered resume analyzer that provides real-time feedback, ATS optimization, and personalized suggestions.",
   image: "/e.png?height=400&width=100%",
   link: "https://aaa-rrrrr-f4rs.vercel.app/",
-  category: "Web Development",
+  category: "Web with AI/ML",
+},
+{
+  title: "Ved",
+  description: "A web-based platform offering spiritual content and resources for learning and exploration.",
+  image: "/v.png?height=400&width=100%",
+  link: "https://ved-fsia.vercel.app/",
+  category: "Web Development / Spiritual",
+},
+{
+  title: "Helper",
+  description: "A web-based platform offering language learning tools, quizzes, and progress tracking with a modern UI.",
+  image: "/H.png?height=400&width=100%",
+  link: "https://helper-ruddy.vercel.app/",
+  category: "Web App",
 },
   {
     title: "Blog Website",
@@ -49,6 +78,20 @@ const allProjects = [
     link: "https://cosmicclender-hdaa.vercel.app/",
     category: "Web Development",
   },
+  {
+    title: "House-price-predictor",
+    description: "Predicts house prices using regression techniques.",
+    image: "/portfolio-4.jpg",
+    link: "https://github.com/dhvani1215/House-price-predictor",
+    category: "AI/ML"
+  },
+  {
+  title: "LoreLoom",
+  description: "An interactive storytelling platform where users can craft, explore, and share immersive tales and digital lore.",
+  image: "/L.png?height=300&width=400",
+  link: "https://lore-loom-tqxp.vercel.app/",
+  category: "Web Development",
+},
   {
     title: "Expense Tracker",
     description: "Personal finance management tool with budget tracking and analytics.",
@@ -76,14 +119,7 @@ const allProjects = [
     image: "/task.png?height=300&width=400",
     link: "https://dsa-project-4smq.vercel.app/",
     category: "Web Development",
-  },
-  {
-  title: "LoreLoom",
-  description: "An interactive storytelling platform where users can craft, explore, and share immersive tales and digital lore.",
-  image: "/L.png?height=300&width=400",
-  link: "https://lore-loom-tqxp.vercel.app/",
-  category: "Web Development",
-},
+  }, 
   {
     title: "VirtualMouse",
     description: "Virtual mouse application for controlling devices remotely using mobile phones.",
@@ -126,13 +162,7 @@ const allProjects = [
     link: "https://github.com/Lvgs3033/python_project",
     category: "AI/ML"
   },
-  {
-    title: "House-price-predictor",
-    description: "Predicts house prices using regression techniques.",
-    image: "/portfolio-4.jpg",
-    link: "https://github.com/dhvani1215/House-price-predictor",
-    category: "AI/ML"
-  },
+  
   {
     title: "Student Management",
     description: "A system to manage student records and information.",
@@ -154,13 +184,7 @@ const allProjects = [
     link: "https://v0-twitter-sentiment-analysis-six.vercel.app/",
     category: "AI/ML"
   },
-  {
-  title: "Leetcode Rank",
-  description: "Personal Leetcode profile showcasing competitive programming progress and rankings.",
-  image: "/portfolio-1.jpg",
-  link: "https://leetcode.com/u/Lvgs3033/",
-  category: "Competitive Programming"
-  },
+  
   {
     title: "Memory Game",
     description: "Interactive memory map application for visualizing and managing personal memories.",
