@@ -36,15 +36,10 @@ export default function About() {
       description:"I started my first programming language during vacations. I had started with C++. I already knew about C, HTML, and CSS at that time. I learned about web development, data science, AI/ML, and Flutter a little bit.",
     },
     {
-      period: "Jul'25 - Dec'25",
+      period: "2025",
       title: "Internship at Canopas",
       description:
-        "I was offered an internship as a AI/ML Engineer Intern at Canopas, a tech-driven company located in Surat. I complete my 6 months internship at canopas as an AI/ML engineer intern for learning real-world projects. During my internship I worked on real-world AI and automation projects where I applied machine learning concepts and software development practices. I gained hands-on experience using Python, OpenCV, PyAutoGUI, Flask, Django, NLP and Deep Learning frameworks. Applying my knowledge to real-world applications and solving practical, live problems.",
-    }, {
-      period: "April'25 - June'25",
-      title: "Virtual Intern | ValutofCodes",
-      description:
-        "Worked on web applications by integrating APIs with interactive and dynamic user interfaces, gaining strong hands-on experience in full-stack development and intelligent system design. Built and optimized end-to-end features using HTML/CSS, JavaScript, React, and the MERN stack, focusing on clean UI workflows, efficient data handling, and scalable architecture.",
+        "I was offered an internship as a Web Developer Intern at Canopas, a tech-driven company located in Surat. The internship spanned from 2nd July to 2nd August 2025, providing me with an opportunity to gain practical experience and refine my web development skills in a professional environment. Throughout the internship, I worked on real-world projects under the guidance of industry professionals, enhancing both my technical capabilities and workplace professionalism. This hands-on experience significantly contributed to my growth as a developer and deepened my understanding of modern web technologies.",
     },
   ]
 
@@ -63,7 +58,8 @@ export default function About() {
             <div className="animate-fade-in-up">
               <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">I'm Dhvani Kakadiya...</h3>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                Hello! I'm Dhvani Kakadiya, a passionate software developer with a diverse skill set in programming. I love creating innovative solutions and exploring new technologies. I am pursuing bechlore degree in computer science engineering from GTU and has minor in data science. I'm excited to connect and collaborate on exciting projects!
+                Hello! I'm Dhvani Kakadiya, a passionate software developer with a diverse skill set in programming and
+                web development. I love creating innovative solutions and exploring new technologies.
               </p>
             </div>
 

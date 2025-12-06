@@ -17,14 +17,14 @@ const allProjects = [
     description: "Online code compiler supporting multiple programming languages with real-time execution.",
     image: "/c.png?height=300&width=400",
     link: "https://code-complier-g7oq.vercel.app/",
-    category: "AI/ML Web App",
+    category: "Web Development",
   },
   {
   title: "Style Me",
   description: "A fashion recommendation web app that suggests outfits and styles for users.",
   image: "/sm.png?height=400&width=100%",
   link: "https://style-me-6w49.vercel.app/",
-  category: "AI/ML Web App",
+  category: "Web Development",
 },
 {
   title: "DSAFLOW",
@@ -38,28 +38,21 @@ const allProjects = [
   description: "AI-powered resume analyzer that provides real-time feedback, ATS optimization, and personalized suggestions.",
   image: "/e.png?height=400&width=100%",
   link: "https://aaa-rrrrr-f4rs.vercel.app/",
-  category: "AI/ML Web App",
+  category: "Web with AI/ML",
 },
 {
   title: "Ved",
   description: "A web-based platform offering spiritual content and resources for learning and exploration.",
   image: "/v.png?height=400&width=100%",
   link: "https://ved-fsia.vercel.app/",
-  category: "AI/ML Web App",
+  category: "Web Development / Spiritual",
 },
-{
-    title: "Medical diagnosis",
-    description: "Predict diseases based on symptoms using prolog.",
-    image: "/portfolio-4.jpg",
-    link: "https://github.com/Lvgs3033/Ai-project",
-    category: "AI"
-  },
 {
   title: "Helper",
   description: "A web-based platform offering language learning tools, quizzes, and progress tracking with a modern UI.",
   image: "/H.png?height=400&width=100%",
   link: "https://helper-ruddy.vercel.app/",
-  category: "Web Development",
+  category: "Web App",
 },
   {
     title: "Blog Website",
@@ -197,7 +190,7 @@ const allProjects = [
     category: "Web Game"
   },
   {
-    title: "Aditi for my bestfriend",
+    title: "Aditi",
     description: "A beautiful portfolio webpage with interactive UI built for branding.",
     image: "/Aditi.png",
     link: "https://lvgs3033.github.io/Bestysis/",
