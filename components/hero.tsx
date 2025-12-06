@@ -78,7 +78,7 @@ export default function Hero() {
               asChild
               className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg"
             >
-              <a href="https://drive.google.com/file/d/1KqmorgT8JHUOOOe4yDJi0K3BM3GsMY2K/view?usp=drive_link" download="Dhvani_Kakadiya_Resume.pdf">
+              <a href="https://drive.google.com/file/d/1SAqOpPwk0cmMvGOFF1VXCsduAebYcz_R/view?usp=drive_link" download="Dhvani_Kakadiya_Resume.pdf">
                 {" "}
                 {/* Updated for download */}
                 <Download className="mr-2 h-4 w-4" />
