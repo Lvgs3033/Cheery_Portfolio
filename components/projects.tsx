@@ -190,7 +190,7 @@ const allProjects = [
     category: "Web Game"
   },
   {
-    title: "Aditi",
+    title: "Aditi for my bestfriend",
     description: "A beautiful portfolio webpage with interactive UI built for branding.",
     image: "/Aditi.png",
     link: "https://lvgs3033.github.io/Bestysis/",
