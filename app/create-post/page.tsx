@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import Link from "next/link"
+
 import { ArrowLeft, Upload } from "lucide-react"
 
 export default function CreatePostPage() {
