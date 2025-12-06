@@ -17,10 +17,10 @@ export default function Skills() {
   ]
 
   const professionalSkills = [
-    { name: "Web Development", percentage: 90 },
+    { name: "AI/ML", percentage: 90 },
     { name: "Data Science", percentage: 70 },
     { name: "DSA,oops", percentage: 80 },
-    { name: "AI/ML", percentage: 80 },
+    { name: "Web Development", percentage: 80 },
   ]
 
   useEffect(() => {

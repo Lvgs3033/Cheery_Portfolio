@@ -42,7 +42,7 @@ export default function Contact() {
       icon: Globe,
       title: "Website",
       value: "Portfolio Site",
-      link: "#",
+      link: "https://cheery-portfolio-3xoa.vercel.app/",
     },
   ]
 

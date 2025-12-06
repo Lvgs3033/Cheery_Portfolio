@@ -9,7 +9,7 @@ export default function Hero() {
   const typingRef = useRef<HTMLSpanElement>(null)
 
   useEffect(() => {
-    const roles = ["Web Developer", "Flutter Developer", "Data Scientist", "AI/ML Developer"]
+    const roles = ["AI/ML Developer", "Flutter Developer", "Data Scientist", "Web Developer"]
     let roleIndex = 0
     let charIndex = 0
     let isDeleting = false
@@ -78,7 +78,7 @@ export default function Hero() {
               asChild
               className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg"
             >
-              <a href="/Resume.pdf" download="Dhvani_Kakadiya_Resume.pdf">
+              <a href="https://drive.google.com/file/d/1KqmorgT8JHUOOOe4yDJi0K3BM3GsMY2K/view?usp=sharing" download="Dhvani_Kakadiya_Resume.pdf">
                 {" "}
                 {/* Updated for download */}
                 <Download className="mr-2 h-4 w-4" />
@@ -90,7 +90,7 @@ export default function Hero() {
               variant="outline"
               className="border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 bg-transparent"
             >
-              <Link href="/#contact" scroll={true}>
+              <Link href="https://www.linkedin.com/in/dhvani-kakadiya-2811a8252/" scroll={true}>
                 {" "}
                 {/* Updated to navigate to contact section */}
                 <MessageCircle className="mr-2 h-4 w-4" />
