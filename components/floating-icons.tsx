@@ -7,10 +7,6 @@ export default function FloatingIcons() {
     window.open("https://wa.me/919773001459?text=Hello!%20I%20would%20like%20to%20connect%20with%20you.", "_blank")
   }
 
-  const openChatbot = () => {
-    alert("Chatbot feature coming soon! For now, please use the contact form or WhatsApp.")
-  }
-
   return (
     <>
       {/* WhatsApp */}
