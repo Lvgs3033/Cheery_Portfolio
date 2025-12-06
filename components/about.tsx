@@ -22,7 +22,7 @@ export default function About() {
     },
     {
       period: "2022-2026",
-      title: "Bachelor in Computer Science with minors in datascience",
+      title: "Bachelor in Computer Science with minor in datascience",
       institution: "Gujarat Technological University (GTU)",
       description:
         "Currently pursuing graduation in Computer Science with focus on programming, data structures, and software development.",
