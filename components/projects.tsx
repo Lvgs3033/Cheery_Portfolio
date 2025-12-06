@@ -48,6 +48,13 @@ const allProjects = [
   category: "AI/ML Web App",
 },
 {
+    title: "Medical diagnosis",
+    description: "Predict diseases based on symptoms using prolog.",
+    image: "/portfolio-4.jpg",
+    link: "https://github.com/Lvgs3033/Ai-project",
+    category: "AI"
+  },
+{
   title: "Helper",
   description: "A web-based platform offering language learning tools, quizzes, and progress tracking with a modern UI.",
   image: "/H.png?height=400&width=100%",
