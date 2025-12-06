@@ -21,6 +21,7 @@ const allCertificates = [
   image: "img/II.png?height=400&width=100%",
   link: "https://drive.google.com/file/d/1GodRTZPj2tCPp77ukGzW3eWh0d2fTpM5/view?usp=drive_link",
   category: "Achievement",
+  color: "from-cyan-500 to-blue-500",
 },
 {
   title: "DSA BY GEEKS FOR GEEKS",
