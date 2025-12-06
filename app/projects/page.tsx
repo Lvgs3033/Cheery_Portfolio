@@ -54,7 +54,7 @@ const allProjects = [
 {
   title: "Ai-Project",
   description: "Ai project use prolog for predict medical diseases based on symptoms and also suggest remidies.",
-  image: "/H.png?height=400&width=100%",
+  image: "/portfolio-4.jpg?height=300&width=400",
   link: "https://github.com/Lvgs3033/Ai-project",
   category: "AI",
 },
@@ -69,7 +69,7 @@ const allProjects = [
 {
   title: "Whiteboard",
   description: "A collaborative online whiteboard application for real-time drawing and brainstorming.",
-  image: "/H.png?height=400&width=100%",
+  image: "/wh.png?height=400&width=100%",
   link: "https://white-board-nine.vercel.app/",
   category: "Web App",
 },
