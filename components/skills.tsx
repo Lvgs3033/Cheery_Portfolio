@@ -11,16 +11,16 @@ export default function Skills() {
     { name: "Backend", percentage: 65, color: "bg-blue-500" },
     { name: "Mern stack", percentage: 70, color: "bg-yellow-500" },
     { name: "Java", percentage: 70, color: "bg-red-500" },
-    { name: "Python", percentage: 80, color: "bg-green-500" },
-    { name: "Flutter", percentage: 40, color: "bg-cyan-500" },
-    { name: "C/C++", percentage: 70, color: "bg-red-500" },
+    { name: "Python", percentage: 85, color: "bg-green-500" },
+    { name: "Flutter", percentage: 60, color: "bg-cyan-500" },
+    { name: "C/C++", percentage: 40, color: "bg-red-500" },
   ]
 
   const professionalSkills = [
     { name: "AI/ML", percentage: 90 },
-    { name: "Data Science", percentage: 70 },
-    { name: "DSA,oops", percentage: 80 },
-    { name: "Web Development", percentage: 80 },
+    { name: "Data Science", percentage: 80 },
+    { name: "DSA,oops", percentage: 65 },
+    { name: "Web Development", percentage: 70 },
   ]
 
   useEffect(() => {
