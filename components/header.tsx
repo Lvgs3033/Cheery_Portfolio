@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
-
+import Link from "next/link"
 import { usePathname } from "next/navigation" // [^1]
 import { Button } from "@/components/ui/button"
 import ThemeSwitcher from "./theme-switcher"

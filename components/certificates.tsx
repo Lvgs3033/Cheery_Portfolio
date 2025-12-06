@@ -1,6 +1,7 @@
 "use client"
 
 import { ExternalLink, Award } from "lucide-react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 const allCertificates = [

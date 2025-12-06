@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import { Github, Linkedin, Instagram, Facebook, Download, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
-
+import Link from "next/link" // Import Link for internal navigation
 
 export default function Hero() {
   const typingRef = useRef<HTMLSpanElement>(null)
