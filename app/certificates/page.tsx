@@ -15,16 +15,20 @@ const allCertificates = [
     link: "https://www.cloudskillsboost.google/public_profiles/2a953300-883e-4739-82d6-ed61cb7493d1",
     color: "from-blue-500 to-green-500",
   }, 
-  {
-  title: "Intenrship Completion",
-  issuer: "Hr of Canopas",
-  description: "I completed my 6 months internship at canopas as an AI/ML engineer intern for learning real-world projects.",
-  image: "/II.png?height=200&width=300",
-  link: "https://drive.google.com/file/d/1GodRTZPj2tCPp77ukGzW3eWh0d2fTpM5/view?usp=drive_link",
+{
+  title: "Internship Offer Letter",
+  description: "Received an offer letter showcasing recognition for skills and qualifications. View details on LinkedIn.",
+  image: "img/II.png?height=400&width=100%",
+  link: "https://drive.google.com/file/d/1VBkEMP4hLFHuRPDXt84mYsWncJ_m7N8R/view?usp=drive_link",
   category: "Achievement",
-  color: "from-blue-500 to-green-500",
 },
 {
+  title: "Internship Completion Certificate",
+  description: "Certificate of completion awarded for successfully finishing the internship/training program.",
+  image: "img/II.png?height=400&width=100%",
+  link: "https://drive.google.com/file/d/1EO-okxAbcD0BlaC-aBQ-ycNz8nS9onzT/view?usp=drive_link",
+  category: "Certification",
+},{
   title: "DSA BY GEEKS FOR GEEKS",
   issuer: "GeeksforGeeks",
   description: "Completed the Data Structures and Algorithms course offered by GeeksforGeeks.",
