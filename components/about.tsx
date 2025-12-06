@@ -22,8 +22,8 @@ export default function About() {
     },
     {
       period: "2022-2026",
-      title: "Bachelor in Computer Science",
-      institution: "Gujarat Technological University (GTU), Surat",
+      title: "Bachelor in Computer Science with minors in datascience",
+      institution: "Gujarat Technological University (GTU)",
       description:
         "Currently pursuing graduation in Computer Science with focus on programming, data structures, and software development.",
     },
@@ -31,7 +31,7 @@ export default function About() {
 
   const experience = [
     {
-      period: "2020-2025",
+      period: "2020-2024",
       title: "Started Programming Journey",
       description:"I started my first programming language during vacations. I had started with C++. I already knew about C, HTML, and CSS at that time. I learned about web development, data science, AI/ML, and Flutter a little bit.",
     },
@@ -39,7 +39,13 @@ export default function About() {
       period: "Jul'25 - Dec'25",
       title: "Internship at Canopas",
       description:
-        "I was offered an internship as a Web Developer Intern at Canopas, a tech-driven company located in Surat. I complete my 6 months internship at canopas as an AI/ML engineer intern for learning real-world projects. During my internship I worked on real-world AI and automation projects where I applied machine learning concepts and software development practices. I gained hands-on experience using Python, OpenCV, PyAutoGUI, Flask, Django, NLP and Deep Learning frameworks.Applying my knowledge to real-world applications and solving practical, live problems.",
+        "I was offered an internship as a AI/ML Intern at Canopas, a tech-driven company located in Surat. I complete my 6 months internship at canopas as an AI/ML engineer intern for learning real-world projects. During my internship I worked on real-world AI and automation projects where I applied machine learning concepts and software development practices. I gained hands-on experience using Python, OpenCV, PyAutoGUI, Flask, Django, NLP and Deep Learning frameworks. Applying my knowledge to real-world applications and solving practical, live problems.",
+    },
+    {
+      period: "April'25 - June'25",
+      title: "Virtual Intern at ValutofCodes",
+      description:
+        "Worked on web applications by integrating APIs with interactive and dynamic user interfaces, gaining strong hands-on experience in full-stack development and intelligent system design. Built and optimized end-to-end features using HTML/CSS, JavaScript, React, and the MERN stack, focusing on clean UI workflows, efficient data handling, and scalable architecture.",
     },
   ]
 
@@ -58,8 +64,7 @@ export default function About() {
             <div className="animate-fade-in-up">
               <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">I'm Dhvani Kakadiya...</h3>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                Hello! I'm Dhvani Kakadiya, a passionate software developer with a diverse skill set in programming and
-                web development. I love creating innovative solutions and exploring new technologies.
+                Hello! I'm Dhvani Kakadiya, a passionate software developer with a diverse skill set in programming and AI/ML. I love creating innovative solutions and exploring new technologies.
               </p>
             </div>
 

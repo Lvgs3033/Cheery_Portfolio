@@ -30,7 +30,7 @@ export default function Contact() {
       icon: MapPin,
       title: "Work From",
       value: "Surat, Gujarat, India",
-      link: "#",
+      link: "https://www.linkedin.com/in/dhvani-kakadiya-2811a8252/",
     },
     {
       icon: Mail,

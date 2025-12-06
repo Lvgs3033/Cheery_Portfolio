@@ -50,6 +50,15 @@ const allProjects = [
   link: "https://ved-fsia.vercel.app/",
   category: "Web Development / Spiritual",
 },
+
+{
+  title: "Ai-Project",
+  description: "Ai project use prolog for predict medical diseases based on symptoms and also suggest remidies.",
+  image: "/H.png?height=400&width=100%",
+  link: "https://github.com/Lvgs3033/Ai-project",
+  category: "AI",
+},
+
 {
   title: "Helper",
   description: "A web-based platform offering language learning tools, quizzes, and progress tracking with a modern UI.",
@@ -57,6 +66,14 @@ const allProjects = [
   link: "https://helper-ruddy.vercel.app/",
   category: "Web App",
 },
+{
+  title: "Whiteboard",
+  description: "A collaborative online whiteboard application for real-time drawing and brainstorming.",
+  image: "/H.png?height=400&width=100%",
+  link: "https://white-board-nine.vercel.app/",
+  category: "Web App",
+},
+
   {
     title: "Blog Website",
     description: "Modern blog platform with content management and user engagement features.",

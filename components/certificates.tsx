@@ -14,25 +14,29 @@ const allCertificates = [
     color: "from-blue-500 to-green-500",
   }, 
 {
-  title: "Intenrship Offer Letter",
-  description: "Received an offer letter showcasing recognition for skills and qualifications. View details on LinkedIn.",
-  image: "/II.png?height=200&width=300",
-  link: "https://drive.google.com/file/d/1VBkEMP4hLFHuRPDXt84mYsWncJ_m7N8R/view?usp=drive_link",
+  title: "AI/ML Engineer Intern",
+  description: "I was offered an internship as a AI/ML Intern at Canopas, a tech-driven company located in Surat for 6 months",
+  image: "img/II.png?height=400&width=100%",
+  link: "https://drive.google.com/file/d/1GodRTZPj2tCPp77ukGzW3eWh0d2fTpM5/view?usp=drive_link",
   category: "Achievement",
+  color: "from-cyan-500 to-blue-500",
 },
 {
-  title: "Internship Completion Certificate",
-  description: "Certificate of completion awarded for successfully finishing the internship/training program.",
-  image: "/II.png?height=200&width=300",
-  link: "https://drive.google.com/file/d/1EO-okxAbcD0BlaC-aBQ-ycNz8nS9onzT/view?usp=drive_link",
-  category: "Certification",
-},{
   title: "DSA BY GEEKS FOR GEEKS",
   issuer: "GeeksforGeeks",
   description: "Completed the Data Structures and Algorithms course offered by GeeksforGeeks.",
   image: "/img/ge.png?height=200&width=300",
   link: "https://drive.google.com/file/d/1a8BYt8OXA7xvdyc0tmAs6X5olv3AP2Jk/view?usp=drive_link",
   color: "from-green-500 to-yellow-500",
+},
+
+{
+  title: "Web Development Internship",
+  issuer: "VaultofCodes",
+  description: "Internship covering full-stack web development fundamentals with practical project experience.",
+  image: "/img/w.png?height=400&width=100%",
+  link: "https://drive.google.com/file/d/1A1BTG9TepuNSRmFq4zTFgBQecMU0dSLx/view?usp=drive_link",
+  color: "from-emerald-500 to-teal-500",
 },
 
   {
@@ -43,22 +47,7 @@ const allCertificates = [
   link: "https://drive.google.com/file/d/1A5paunkZfIgQBLQHvYj-Pe89uwlyVW6P/view?usp=drive_link",
   color: "from-cyan-500 to-blue-500",
 },
-{
-  title: "Web Development Internship",
-  issuer: "VaultofCodes",
-  description: "Internship covering full-stack web development fundamentals with practical project experience.",
-  image: "/img/w.png?height=400&width=100%",
-  link: "https://drive.google.com/file/d/1A1BTG9TepuNSRmFq4zTFgBQecMU0dSLx/view?usp=drive_link",
-  color: "from-emerald-500 to-teal-500",
-},
-{
-  title: "AI Internship",
-  issuer: "CSRBOX (GTU Program)",
-  description: "GTU-certified AI internship focusing on foundational artificial intelligence concepts and practical implementation.",
-  image: "/img/AA.png?height=400&width=100%",
-  link: "https://drive.google.com/file/d/19ujicXLCVj68o0zs_3GG5u32gG9naqjl/view?usp=drive_link",
-  color: "from-yellow-500 to-orange-500",
-},
+
   {
     title: "Web Development",
     issuer: "Google Developer group",
@@ -91,14 +80,6 @@ const allCertificates = [
     link: "https://drive.google.com/file/d/1N-QNCk54lM3luzfcEOgcPL76VVKB8Kvk/view?usp=drive_link",
     color: "from-green-500 to-teal-500",
   },
-  {
-  title: "AI Internship",
-  issuer: "VaultofCodes",
-  description: "Hands-on AI internship exploring machine learning and intelligent systems at VaultofCodes.",
-  image: "/img/AAAA.png?height=400&width=100%",
-  link: "https://drive.google.com/file/d/1A29DTvBn3pwNxomD_KTVpbzunMNdXBwL/view?usp=drive_link",
-  color: "from-purple-500 to-indigo-500",
-},
   {
     title: "Intorduction to modern ai",
     issuer: "Cisco",

@@ -36,7 +36,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-pink-600 dark:text-pink-400 mb-4">About Me</h3>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              I'm Dhvani Kakadiya, a passionate Web Developer, Data Scientist, and AI/ML Developer creating innovative
+              I'm Dhvani Kakadiya, a passionate AI/ML Engineer, Data Scientist, and Web Developer creating innovative
               solutions.
             </p>
             <div className="flex space-x-4">
