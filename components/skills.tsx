@@ -7,7 +7,7 @@ export default function Skills() {
   const sectionRef = useRef<HTMLElement>(null)
 
   const technicalSkills = [
-    { name: "Python", percentage: 80, color: "bg-green-500" },
+    { name: "Python", percentage: 85, color: "bg-green-500" },
     { name: "Frontend", percentage: 95, color: "bg-orange-500" },
     { name: "Backend", percentage: 60, color: "bg-blue-500" },
     { name: "Mern stack", percentage: 70, color: "bg-yellow-500" },
