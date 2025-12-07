@@ -14,17 +14,18 @@ const allProjects = [
   },
   {
     title: "Code Compiler",
-    description: "Online code compiler supporting multiple programming languages with real-time execution.",
+    description: "Designed and implemented an interactive online code runner that allows real-time execution of multiple programming languages directly in the browser.Integrated a code execution API to allow users to write, run, and debug code instantly.",
     image: "/c.png?height=300&width=400",
+    Technology_used:"React(typescript), Tailwind CSS, REST APIs, shadcn/ui, Language Compilers, Gemini api",
     link: "https://code-complier-g7oq.vercel.app/",
     category: "Web with AI/ML",
   },
   {
   title: "Style Me",
-  description: "A fashion recommendation web app that suggests outfits and styles for users.",
+  description: "Designed and developed a comprehensive AI-powered web application that delivers personalized style recommendations through advanced analysis tools. Integrated AI for color analysis to determine skin tone, undertones and seasonal palettes along with body type assessment for tailored clothing suggestions. Additional features include intelligent jewelry recommendations and personalized guidance for enhancing natural beauty.",
   image: "/sm.png?height=400&width=100%",
   link: "https://style-me-6w49.vercel.app/",
-  category: "AI/ML Web App",
+  category: "AI/ML Web",
 },
 {
   title: "DSAFLOW",
@@ -42,7 +43,7 @@ const allProjects = [
 },
 {
   title: "Ved",
-  description: "A web-based platform offering spiritual content and resources for learning and exploration.",
+  description: "A web-based platform translate one language to another language with modern UI.",
   image: "/v.png?height=400&width=100%",
   link: "https://ved-fsia.vercel.app/",
   category: "Web Development / Spiritual",
@@ -56,7 +57,7 @@ const allProjects = [
 },
 {
   title: "Helper",
-  description: "A web-based platform offering language learning tools, quizzes, and progress tracking with a modern UI.",
+  description: "A web-based platform offering some comman emergency numbers, document list require for different different id proofs and inforamtion about indian laws.",
   image: "/H.png?height=400&width=100%",
   link: "https://helper-ruddy.vercel.app/",
   category: "Web App",
@@ -68,7 +69,13 @@ const allProjects = [
   link: "https://white-board-nine.vercel.app/",
   category: "Web App",
 },
-
+{
+  title: "Face Recognition System",
+  description: "Face recognition project with real-time detection and matching, built using Python.",
+  image: "/portfolio-4.jpg?height=400&width=100%",
+  link: "https://github.com/Lvgs3033/python_project",
+  category: "AI/ML",
+},
   {
     title: "Blog Website",
     description: "Modern blog platform with content management and user engagement features.",
@@ -99,9 +106,9 @@ const allProjects = [
   },
   {
   title: "LoreLoom",
-  description: "An interactive storytelling platform where users can craft, explore, and share immersive tales and digital lore.",
+  description: "An interactive storytelling platform where users can craft, explore, and share immersive tales and digital lore also allow to write stories by yourself",
   image: "/L.png?height=300&width=400",
-  link: "https://lore-loom-tqxp.vercel.app/",
+  link: "https:/lore-loom-tqxp.vercel.app/",
   category: "Web Development",
 },
   {
@@ -112,26 +119,12 @@ const allProjects = [
     category: "Web Development",
   },
   {
-    title: "Recipe Website",
-    description: "Interactive recipe sharing platform with search and filtering capabilities.",
-    image: "/cake.png?height=300&width=400",
-    link: "https://sensational-muffin-4f83b7.netlify.app/",
-    category: "Web Development",
-  },
-  {
     title: "VirtualMouse",
     description: "Virtual mouse application for controlling devices remotely using mobile phones.",
     image: "/portfolio-1.jpg?height=300&width=400",
     link: "https://github.com/Lvgs3033/python_project",
     category: "AI/ML",
   },
-  {
-  title: "Face Recognition System",
-  description: "Face recognition project with real-time detection and matching, built using Python.",
-  image: "/portfolio-4.jpg?height=400&width=100%",
-  link: "https://github.com/Lvgs3033/python_project",
-  category: "AI/ML",
-},
   {
     title: "Jarvise-ai",
     description: "AI-powered personal assistant for task automation and productivity enhancement.",
@@ -182,7 +175,6 @@ const allProjects = [
     link: "https://v0-twitter-sentiment-analysis-six.vercel.app/",
     category: "AI/ML"
   },
-  
   {
     title: "Memory Game",
     description: "Interactive memory map application for visualizing and managing personal memories.",
@@ -197,34 +189,6 @@ const allProjects = [
   link: "https://skillsend-4tv4.vercel.app/",
   category: "Web Development",
 },
-  {
-    title: "Tic-tac-toe",
-    description: "A fun and responsive Tic-tac-toe game playable on modern browsers.",
-    image: "/t1.png",
-    link: "https://stunning-kleicha-49c0e8.netlify.app/",
-    category: "Web Game"
-  },
-  {
-    title: "Aditi",
-    description: "A beautiful portfolio webpage with interactive UI built for branding.",
-    image: "/Aditi.png",
-    link: "https://lvgs3033.github.io/Bestysis/",
-    category: "Web App"
-  },
-  {
-    title: "Jokes",
-    description: "A random joke generator that fetches jokes from an external API.",
-    image: "/joke.png",
-    link: "https://lvgs3033.github.io/Joke-generator/",
-    category: "Web App"
-  },
-  {
-    title: "Love Calculator",
-    description: "Fun love compatibility calculator based on names, just for entertainment!",
-    image: "/lc.png",
-    link: "https://lvgs3033.github.io/Love-Calulator/",
-    category: "Web App"
-  },
 
 ]
 
